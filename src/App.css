@@ -146,3 +146,34 @@ a {
   padding: 0.5rem 0;
   border-bottom: 1px solid #333;
 }
+
+@media (max-width: 600px) {
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+  .grid-2 img {
+    height: 200px;
+    padding: 1.5rem;
+  }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .grid-2 img {
+    padding: 1rem;
+    width: 100%;
+    height: 400px;
+  }
+  .grid-2 ul {
+    padding: 1rem;
+  }
+  .plot h1 {
+    padding: 0 1rem;
+  }
+  .plot p {
+    padding: 0 1rem 0.7rem 1rem;
+    margin-top: 0.5rem;
+  }
+  .plot a {
+    margin-left: 1rem;
+  }
+}
